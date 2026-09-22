@@ -1,0 +1,40 @@
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# 模型权重 & 预训练权重
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# 数据集
+data/
+
+# 推理输出、可视化结果
+Ablation/
+energy_pairs_fixed/
+
+# 编辑器本地文件
+.qoder/
+.vscode/
+.idea/
+
+# 压缩包
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+
+# 不想提交的脚本
+autism_dataset.py
+train_ablation_model.py
+train_v2.py
+visualize_energy_.py
+visualize_energy_v2.py
